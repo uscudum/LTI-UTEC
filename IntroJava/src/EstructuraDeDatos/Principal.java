@@ -1,3 +1,5 @@
+package EstructuraDeDatos;
+
 import java.util.LinkedList;
 
 public class Principal {

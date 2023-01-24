@@ -1,3 +1,5 @@
+package EstructuraDeDatos;
+
 public class Persona {
     public String nombre;
     public int edad;
@@ -13,4 +15,3 @@ public class Persona {
         return "Persona [nombre=" + nombre + ", edad=" + edad + ", cantidad de hijos=" + cantHijos + "]";
     }
 }
-
