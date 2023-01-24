@@ -7,23 +7,23 @@ public class Programa {
 
         //Creamos la lista
 
-        LinkedList<Persona> listaPersonas = new LinkedList<Persona>();
+//        LinkedList<Persona> listaPersonas = new LinkedList<Persona>();
 
 //        //Creamos el mapa
 //
 //        HashMap<String,Persona> mapaPersonas = new HashMap<String,Persona>();
 
-        //Creamos instancias de personas
-
-        Persona p1 = new Persona("Andres","Montevideo", "4.547.166-8");
-        Persona p2 = new Persona("Virginia","Rivera", "4.196.456-1");
-        Persona p3 = new Persona("Juan Pablo","Mercedes", "3.247.106-5");
-
-        //Agregamos las personas con sus respectivas claves a la lista
-
-        listaPersonas.add(p1);
-        listaPersonas.add(p2);
-        listaPersonas.add(p3);
+//        //Creamos instancias de personas
+//
+//        Persona p1 = new Persona("Andres","Montevideo", "4.547.166-8");
+//        Persona p2 = new Persona("Virginia","Rivera", "4.196.456-1");
+//        Persona p3 = new Persona("Juan Pablo","Mercedes", "3.247.106-5");
+//
+//        //Agregamos las personas con sus respectivas claves a la lista
+//
+//        listaPersonas.add(p1);
+//        listaPersonas.add(p2);
+//        listaPersonas.add(p3);
 
 //        //Agregamos las personas con sus respectivas claves, al mapa
 //
@@ -31,19 +31,19 @@ public class Programa {
 //        mapaPersonas.put("4.196.456-1", p2);
 //        mapaPersonas.put("3.247.106-5", p3);
 
-
-        //Buscamos en la lista la persona con CI que deseamos
-
-        Persona personaDeLista = null;
-        for (Persona p: listaPersonas){
-            if (p.getCi()=="4.547.166-8"){
-                personaDeLista = p;
-            }
-        }
-
-        System.out.println("Nombre: " + personaDeLista.getNombre());
-        System.out.println("Residencia: " + personaDeLista.getCiudadResidencia());
-        System.out.println("CI: " + personaDeLista.getCi());
+//
+//        //Buscamos en la lista la persona con CI que deseamos
+//
+//        Persona personaDeLista = null;
+//        for (Persona p: listaPersonas){
+//            if (p.getCi()=="4.547.166-8"){
+//                personaDeLista = p;
+//            }
+//        }
+//
+//        System.out.println("Nombre: " + personaDeLista.getNombre());
+//        System.out.println("Residencia: " + personaDeLista.getCiudadResidencia());
+//        System.out.println("CI: " + personaDeLista.getCi());
 
 //        //Obtenemos la persona de CI que deseamos
 //

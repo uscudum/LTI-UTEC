@@ -1,36 +1,16 @@
 public class Persona {
     private String nombre;
-    private String ciudadResidencia;
-    private String ci;
+    private int edad;
+    private byte cantHijos;
 
-    public Persona(String nombre, String ciudadResidencia, String ci){
+    public Persona(String nombre, int edad, byte hijos){
         this.nombre = nombre;
-        this.ciudadResidencia = ciudadResidencia;
-        this.ci = ci;
+        this.edad = edad;
+        this.cantHijos = hijos;
     }
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getCiudadResidencia() {
-        return ciudadResidencia;
-    }
-
-    public void setCiudadResidencia(String ciudadResidencia) {
-        this.ciudadResidencia = ciudadResidencia;
-    }
-
-    public String getCi() {
-        return ci;
-    }
-
-    public void setCi(String ci) {
-        this.ci = ci;
+    public String toString() {
+        return "Persona [nombre=" + nombre + ", edad=" + edad + ", cantidad de hijos=" + cantHijos + "]";
     }
 }
 
