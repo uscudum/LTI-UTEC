@@ -1,3 +1,4 @@
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class Programa {
@@ -12,12 +13,19 @@ public class Programa {
         listaStrings.add("otro texto");
 
 
-        for (String s : listaStrings){
-            System.out.println(s);
-        }
+//        for (String s : listaStrings){
+//            System.out.println(s);
+//        }
+//
+//        for (int i = 0; i < listaStrings.size(); i++){
+//            System.out.println(listaStrings.get(i));
+//        }
 
-        for (int i = 0; i < listaStrings.size(); i++){
-            System.out.println(listaStrings.get(i));
+        Iterator<String> it = listaStrings.iterator();
+
+        while (it.hasNext()){
+            String s = it.next();
+            System.out.println(s);
         }
 
     }
