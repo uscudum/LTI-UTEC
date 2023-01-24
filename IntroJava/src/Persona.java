@@ -1,7 +1,7 @@
 public class Persona {
-    private String nombre;
-    private int edad;
-    private byte cantHijos;
+    public String nombre;
+    public int edad;
+    public byte cantHijos;
 
     public Persona(String nombre, int edad, byte hijos){
         this.nombre = nombre;
