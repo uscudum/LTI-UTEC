@@ -16,5 +16,11 @@ public class Programa {
             System.out.println(s);
         }
 
+        for (int i = 0; i < listaStrings.size(); i++){
+            System.out.println(listaStrings.get(i));
+        }
+
     }
 }
+
+
