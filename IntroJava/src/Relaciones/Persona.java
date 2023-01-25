@@ -1,18 +1,22 @@
 package Relaciones;
 
+import java.util.LinkedList;
+
 public class Persona {
 
     public String nombre;
     public String ci;
     public boolean mayorEdad;
-    public Auto auto;
+    LinkedList<Auto> autos = new LinkedList<>();
 
-    public Persona(String nombre, String ci, boolean mayorEdad, Auto auto){
+    public Persona(String nombre, String ci, boolean mayorEdad, LinkedList<Auto> autos){
         this.nombre = nombre;
         this.ci = ci;
         this.mayorEdad = mayorEdad;
-        this.auto = auto;
+        this.autos = autos;
     }
 }
+
+
 
 
