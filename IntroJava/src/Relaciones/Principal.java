@@ -1,16 +1,31 @@
 package Relaciones;
 
+import java.util.LinkedList;
+
 public class Principal {
     public static void main(String[] args) {
-        // --------- Ejemplo donde relacionamos un auto y una persona
 
-        //Creamos una instancia de un auto
         Auto auto1 = new Auto("Chevrolet", "Aveo G3", "AAA1158", 2014, null);
+        Auto auto2 = new Auto("Chevrolet", "JOY plus", "SSA2258", 2021, null);
+        Auto auto3 = new Auto("Chevrolet", "JOY", "SSA2299", 2021, null);
 
-        //Ahora creamos instancia de persona que se relaciona con el auto1
-        Persona persona1 = new Persona("Guillermo", "1.123.456-7", true, auto1);
+        LinkedList<Auto> autosDeGuille = new LinkedList<>();
+        autosDeGuille.add(auto1);
+        autosDeGuille.add(auto2);
+        autosDeGuille.add(auto3);
 
+        // Ahora creamos la instancia de persona y le pasamos la lista de autos
+        Persona persona1 = new Persona("Guillermo", "1.123.456-7", true, autosDeGuille);
+
+        //Si además, en cada auto quiero identificar a su propietario, lo indico
         auto1.propietario = persona1;
+        auto2.propietario = persona1;
+        auto3.propietario = persona1;
+
+        System.out.println(persona1);
     }
 }
+
+
+
 
