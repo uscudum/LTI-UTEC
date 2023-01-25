@@ -20,10 +20,8 @@ public class Principal {
         // obtenemos un atributo propio
         int cañones = barcoGuerra1.cantidadCañones;
 
-        System.out.println(barco1 instanceof Barco);
-        System.out.println(barco1 instanceof BarcoGuerra);
-        System.out.println(barcoGuerra1 instanceof Barco);
-        System.out.println(barcoGuerra1 instanceof BarcoGuerra);
+        System.out.println(barco1);
+        System.out.println(barcoGuerra1);
     }
 }
 

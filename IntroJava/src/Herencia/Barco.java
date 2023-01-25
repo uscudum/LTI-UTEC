@@ -13,5 +13,14 @@ public class Barco {
         this.largo = largo;
         this.ancho = ancho;
     }
+
+    public String toString() {
+        return "Barco{" +
+                "latitud=" + latitud +
+                ", longitud=" + longitud +
+                ", largo=" + largo +
+                ", ancho=" + ancho +
+                '}';
+    }
 }
 
