@@ -12,4 +12,8 @@ public class Rectangulo implements Figura{
     public double area() {
         return this.alto * this.ancho;
     }
+
+    public double perimetro() {
+        return 2 * (this.alto + this.ancho);
+    }
 }

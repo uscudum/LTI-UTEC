@@ -8,6 +8,10 @@ public class Circulo implements Figura{
     }
 
     public double area(){
+        return PI*this.radio*this.radio;
+    }
+
+    public double perimetro() {
         return 2*PI*this.radio;
     }
 }
