@@ -1,6 +1,6 @@
 package Semana3.Material;
 
-public class Circulo implements Figura{
+public class Circulo implements Figura, Perimetro{
     private double radio;
 
     public Circulo (double radio){

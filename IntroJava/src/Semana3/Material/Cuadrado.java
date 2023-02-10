@@ -1,6 +1,6 @@
 package Semana3.Material;
 
-public class Cuadrado implements Figura{
+public class Cuadrado implements Figura, Perimetro{
     private double lado;
 
     public Cuadrado(double lado){
@@ -8,5 +8,9 @@ public class Cuadrado implements Figura{
     }
     public double area() {
         return lado * lado;
+    }
+
+    public double perimetro() {
+        return this.lado * 4;
     }
 }

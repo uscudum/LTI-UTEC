@@ -1,6 +1,6 @@
 package Semana3.Material;
 
-public class Rectangulo implements Figura{
+public class Rectangulo implements Figura, Perimetro{
     private double ancho;
     private double alto;
 
