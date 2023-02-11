@@ -10,6 +10,7 @@ public class Principal {
         Rectangulo c2 = new Rectangulo(4,7);
         Circulo c3 = new Circulo(8);
 
+        // Impresión por consola
         System.out.println("Área cuadrado ="+c1.area());
         System.out.println("Perímetro cuadrado ="+c1.perimetro());
         System.out.println("Área rectángulo ="+c2.area());
