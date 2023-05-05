@@ -35,6 +35,10 @@ public class LabSwing extends Frame {
                         resultado = (Double) ((temperatura * 9 / 5) + 32);
                         //(0 °C × 9/5) + 32 = 32 °F
                         txtResult.setText(String.format("%.2f °F", resultado));
+                    }else{
+                        resultado = (Double) ((temperatura - 32) * 5/9);
+                        //(0 °F − 32) × 5/9 = -17,78 °C
+                        txtResult.setText(String.format("%.2f °C", resultado));
                     }
                 }catch (NumberFormatException error){
                     JOptionPane.showMessageDialog(panel,"Dato inválido: " + error.getMessage(), "Error",JOptionPane.WARNING_MESSAGE);
